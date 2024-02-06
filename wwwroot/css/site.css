@@ -21,7 +21,7 @@ body {
   margin-bottom: 60px;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Two image container columns */
 .column1 {
     float: left;
     width: 57.75%;
@@ -34,7 +34,7 @@ body {
     padding: 5px
 }
 
-/* Clear floats after image containers */
+/* Clear floats after image containers (help from W3 Schools) */
 .row::after {
     content: "";
     clear: both;

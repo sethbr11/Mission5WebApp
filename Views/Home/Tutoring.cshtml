@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Tutoring";
+}
+<h1>@ViewData["Title"]: Price Calculator</h1>
+<br />
+<form>
+    <label for="hours-input" id="hours-input-label">How many hours will you require? </label>
+    <input id="hours-input"/> x <input id="hourly-rate" value="$20/hr" readonly/><br /><br />
+    <button type="button" id="calculate-cost-btn">Calculate</button>
+</form>
+<br />
+<output id="cost-output"></output>
